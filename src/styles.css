@@ -1,0 +1,71 @@
+body {
+  background-color: #d9beb4;
+  font-family: "Handlee", cursive;
+}
+h1 {
+  font-size: 50px;
+}
+.box {
+  background-color: #efede6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 60px auto;
+  display: block;
+  width: 625px;
+  box-shadow: 15px 15px 15px #c08b7e;
+}
+form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button {
+  background-color: #c08b7e;
+  color: #efede6;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100px;
+  height: 60px;
+  border: 1px solid #112c2f;
+}
+#city {
+  background-color: #d9beb4;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #112c2f;
+  width: 450px;
+  height: 60px;
+}
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.overview p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.overview {
+  padding: 10px;
+  width: 300px;
+}
+.overview p strong {
+  color: #c08b7e;
+}
+
+.temp {
+  padding: 10px;
+  width: 300px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+.main {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+footer {
+  text-align: center;
+  padding-top: 5px;
+}

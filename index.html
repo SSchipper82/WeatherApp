@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <title>My weather application</title>
+  </head>
+  <body>
+    <div class="box">
+      <form>
+        <input type="search" id="city" placeholder="Enter a city" />
+        <input type="submit" value="search" class="button" />
+      </form>
+
+      <div class="main">
+        <div class="overview">
+          <h1>Sacramento</h1>
+          <p>
+            <span class="time"> Thursday 10:30am</span>, sunny <br />
+            Humidity: <strong>21%</strong> Wind: NNW <strong>9 mph</strong>
+          </p>
+        </div>
+        <div class="temp">
+          <p>☀️ 72°F</p>
+        </div>
+      </div>
+
+      <footer>
+        <p>
+          This project was coded by
+          <a
+            href="https://www.linkedin.com/in/shannon-schipper/"
+            target="_blank"
+            >Shannon Schipper</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
